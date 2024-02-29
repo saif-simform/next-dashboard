@@ -1,10 +1,18 @@
+import { getUsers } from '@/app/lib/data'
 import Pagination from '@/app/components/dashboard/pagination/pagination'
 import Search from '@/app/components/dashboard/search/search'
 import styles from '@/app/components/dashboard/users/users.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const User = () => {
+type Props = { searchParams: { query: string | undefined, page: string | undefined } };
+
+const User = async ({ searchParams }: Props) => {
+    const query = searchParams?.query || ""
+    const page = searchParams?.page || "1"
+
+    const { users, count } = await getUsers(query, page)
+
     return (
         <div className={styles.container}>
             <div className={styles.top}>
@@ -25,29 +33,34 @@ const User = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <div className={styles.user}>
-                                <Image src='/noavatar.png' alt="userImage" width={40} height={40} className={styles.userImage} />
-                                John Doe
-                            </div>
-                        </td>
-                        <td>john@ymail.com</td>
-                        <td>28.02.2024</td>
-                        <td>Admin</td>
-                        <td>Active</td>
-                        <td>
-                            <div className={styles.buttons}>
-                                <Link href='/dashboard/users/1'>
-                                    <button className={`${styles.button} ${styles.view}`} >View</button>
-                                </Link>
-                                <button className={`${styles.button} ${styles.delete}`} >Delete</button>
-                            </div>
-                        </td>
-                    </tr>
+                    {(await users).map(user => (
+                        <tr key={user.id}>
+                            <td>
+                                <div className={styles.user}>
+                                    <Image src={user.img || '/noavatar.png'} alt="userImage" width={40} height={40} className={styles.userImage} />
+                                    {user.username}
+                                </div>
+                            </td>
+                            <td>{user.email}</td>
+                            <td>{user.createdAt?.toString().slice(4, 16)}</td>
+                            <td>{user.isAdmin ? 'Admin' : 'User'}</td>
+                            <td>{user.isActive ? 'Active' : 'Passive'}</td>
+                            <td>
+                                <div className={styles.buttons}>
+                                    <Link href={`/dashboard/users/${user.id}`}>
+                                        <button className={`${styles.button} ${styles.view}`} >View</button>
+                                    </Link>
+                                    <button className={`${styles.button} ${styles.delete}`} >Delete</button>
+                                </div>
+                            </td>
+                        </tr>
+                    ))
+
+                    }
+
                 </tbody>
             </table>
-            <Pagination />
+            <Pagination count={count} />
         </div>
     )
 }

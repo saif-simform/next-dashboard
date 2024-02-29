@@ -1,10 +1,19 @@
 import Pagination from "@/app/components/dashboard/pagination/pagination"
 import Search from "@/app/components/dashboard/search/search"
 import styles from "@/app/components/dashboard/products/products.module.css"
+import { getProducts } from '@/app/lib/data'
 import Image from "next/image"
 import Link from "next/link"
 
-const Product = () => {
+type Props = {
+    searchParams: { query: string | undefined, page: string | undefined }
+}
+const Product = async ({ searchParams }: Props) => {
+    const query = searchParams?.query || ""
+    const page = searchParams?.page || "1"
+
+    const { products, count } = await getProducts(query, page)
+
     return (
         <div className={styles.container}>
             <div className={styles.top}>
@@ -25,29 +34,32 @@ const Product = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>
-                            <div className={styles.product}>
-                                <Image src='/noproduct.jpg' alt="productImage" width={40} height={40} className={styles.productImage} />
-                                Mobile
-                            </div>
-                        </td>
-                        <td>Android</td>
-                        <td>$320</td>
-                        <td>28.02.2024</td>
-                        <td>25</td>
-                        <td>
-                            <div className={styles.buttons}>
-                                <Link href='/dashboard/products/1'>
-                                    <button className={`${styles.button} ${styles.view}`} >View</button>
-                                </Link>
-                                <button className={`${styles.button} ${styles.delete}`} >Delete</button>
-                            </div>
-                        </td>
-                    </tr>
+                    {(await products).map(product => (
+                        <tr key={product.id}>
+                            <td>
+                                <div className={styles.product}>
+                                    <Image src={product.img || '/noproduct.jpg'} alt="productImage" width={40} height={40} className={styles.productImage} />
+                                    {product.title}
+                                </div>
+                            </td>
+                            <td>{product.desc}</td>
+                            <td>{product.price}</td>
+                            <td>{product.createdAt}</td>
+                            <td>{product.stock}</td>
+                            <td>
+                                <div className={styles.buttons}>
+                                    <Link href='/dashboard/products/1'>
+                                        <button className={`${styles.button} ${styles.view}`} >View</button>
+                                    </Link>
+                                    <button className={`${styles.button} ${styles.delete}`} >Delete</button>
+                                </div>
+                            </td>
+                        </tr>
+                    ))}
+
                 </tbody>
             </table>
-            <Pagination />
+            <Pagination count={count} />
         </div>
     )
 }
