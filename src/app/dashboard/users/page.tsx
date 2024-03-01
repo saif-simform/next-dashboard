@@ -1,4 +1,5 @@
 import { getUsers } from '@/app/lib/data'
+import { deleteUser } from '@/app/lib/actions'
 import Pagination from '@/app/components/dashboard/pagination/pagination'
 import Search from '@/app/components/dashboard/search/search'
 import styles from '@/app/components/dashboard/users/users.module.css'
@@ -33,7 +34,7 @@ const User = async ({ searchParams }: Props) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {(await users).map(user => (
+                    {users.map(user => (
                         <tr key={user.id}>
                             <td>
                                 <div className={styles.user}>
@@ -50,7 +51,10 @@ const User = async ({ searchParams }: Props) => {
                                     <Link href={`/dashboard/users/${user.id}`}>
                                         <button className={`${styles.button} ${styles.view}`} >View</button>
                                     </Link>
-                                    <button className={`${styles.button} ${styles.delete}`} >Delete</button>
+                                    <form action={deleteUser}>
+                                        <input type="hidden" name="id" value={user.id} />
+                                        <button className={`${styles.button} ${styles.delete}`} >Delete</button>
+                                    </form>
                                 </div>
                             </td>
                         </tr>

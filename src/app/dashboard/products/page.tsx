@@ -4,6 +4,7 @@ import styles from "@/app/components/dashboard/products/products.module.css"
 import { getProducts } from '@/app/lib/data'
 import Image from "next/image"
 import Link from "next/link"
+import { deleteProduct } from "@/app/lib/actions"
 
 type Props = {
     searchParams: { query: string | undefined, page: string | undefined }
@@ -34,7 +35,7 @@ const Product = async ({ searchParams }: Props) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {(await products).map(product => (
+                    {products.map(product => (
                         <tr key={product.id}>
                             <td>
                                 <div className={styles.product}>
@@ -43,15 +44,18 @@ const Product = async ({ searchParams }: Props) => {
                                 </div>
                             </td>
                             <td>{product.desc}</td>
-                            <td>{product.price}</td>
-                            <td>{product.createdAt}</td>
+                            <td>${product.price}</td>
+                            <td>{product.createdAt?.toString().slice(4, 16)}</td>
                             <td>{product.stock}</td>
                             <td>
                                 <div className={styles.buttons}>
-                                    <Link href='/dashboard/products/1'>
+                                    <Link href={`/dashboard/products/${product.id}`}>
                                         <button className={`${styles.button} ${styles.view}`} >View</button>
                                     </Link>
-                                    <button className={`${styles.button} ${styles.delete}`} >Delete</button>
+                                    <form action={deleteProduct}>
+                                        <input type="hidden" name="id" value={product.id} />
+                                        <button className={`${styles.button} ${styles.delete}`} >Delete</button>
+                                    </form>
                                 </div>
                             </td>
                         </tr>
