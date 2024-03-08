@@ -1,0 +1,46 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/components/dashboard/users/addUser/addUser.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+.addUser_container__lcmKG {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.addUser_form__2sB4S {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.addUser_form__2sB4S input,
+.addUser_form__2sB4S select,
+.addUser_form__2sB4S textarea {
+    padding: 30px;
+    background-color: var(--bg);
+    color: var(--text);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 2px solid #2e374a;
+}
+
+.addUser_form__2sB4S input,
+.addUser_form__2sB4S select {
+    width: 45%;
+
+}
+
+.addUser_form__2sB4S textarea {
+    width: 100%;
+}
+
+.addUser_form__2sB4S button {
+    width: 100%;
+    padding: 30px;
+    background-color: teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

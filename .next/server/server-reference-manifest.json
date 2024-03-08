@@ -1,0 +1,142 @@
+{
+  "node": {
+    "49c85d06dacc4522e95fc7e1b72c8e40e331401b": {
+      "workers": {
+        "app/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/page": "rsc",
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "043f7627b811dcd5bfd779d04cbf0d09fdfc3667": {
+      "workers": {
+        "app/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Flogin%2FloginForm%2FloginForm.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/login/page": "rsc"
+      }
+    },
+    "161685b28199c4d1404ed0a311638fb3fbfcb210": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "4168234e49ce42c5f1e61ad73a0e31f5176ab488": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "57288007e8ddf2f134d4dd7db391f137f446dd4f": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "57bbf02efabbf494c6022417c69d5fcc6e05747c": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "6f578e994e6acce116f4a0deaca5e69ac0aff127": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "939f16129bcdff66daec2f5681dc9903074840c8": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "a338b4a840155b4e0d974d0640d1ae282e557706": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    },
+    "ec4aaa63ac065a9ae4cfdbb174e2291f0ddbaa02": {
+      "workers": {
+        "app/dashboard/users/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/products/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/add/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!",
+        "app/dashboard/users/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Fcomponents%2Fdashboard%2Fsidebar%2Fsidebar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%2C%5B%22%2Fhome%2Fsaifuddin%2FProject%2Fnext-dashboard%2Fsrc%2Fapp%2Flib%2Factions.js%22%2C%5B%22deleteProduct%22%2C%22deleteUser%22%2C%22updateUser%22%2C%22logout%22%2C%22updateProduct%22%2C%22authenticate%22%2C%22addProduct%22%2C%22addUser%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/dashboard/users/page": "rsc",
+        "app/dashboard/products/page": "rsc",
+        "app/dashboard/users/add/page": "rsc",
+        "app/dashboard/users/[id]/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "jBXGaNF8Xv+1mvufLlGBh76ukWEQrRSghVWdyTz7vGo="
+}
