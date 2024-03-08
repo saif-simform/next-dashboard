@@ -1,15 +1,12 @@
 import styles from "@/app/components/login/login.module.css";
 import { authenticate } from "@/app/lib/actions";
+import { signIn } from "../auth";
+import LoginForm from "../components/login/loginForm/loginForm";
 
-const Login = () => {
+const Login = async () => {
   return (
     <div className={styles.container}>
-      <form action={authenticate} className={styles.form}>
-        <h2>Login</h2>
-        <input type="email" name="email" placeholder="email" />
-        <input type="password" name="password" placeholder="password" />
-        <button>Login</button>
-      </form>
+      <LoginForm />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { Product, User } from "./models";
 import { connectToDB } from "./utils";
-import { signIn } from "@/app/auth";
+import { signIn, signOut } from "@/app/auth";
 import bcrypt from "bcrypt";
 
 export const addUser = async (formData) => {
@@ -147,18 +147,19 @@ export const updateProduct = async (formData) => {
   redirect("/dashboard/products");
 };
 
-export const authenticate = async (prevState, formData) => {
+export const authenticate = async (formData) => {
+  const { email, password } = Object.fromEntries(formData);
   try {
-    await signIn("credentials", formData);
+    await signIn("credentials", { email, password });
   } catch (error) {
-    if (error) {
-      switch (error.type) {
-        case "CredentialsSignin":
-          return "Invalid credentials.";
-        default:
-          return "Something went wrong.";
-      }
-    }
-    throw error;
+    return { error: "Invalide Credentials" };
+  }
+};
+
+export const logout = async () => {
+  try {
+    await signOut();
+  } catch (error) {
+    console.log(error);
   }
 };

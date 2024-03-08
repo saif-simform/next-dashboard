@@ -4,7 +4,6 @@ import { authConfig } from "./auth.config";
 import { User } from "./lib/models";
 import { connectToDB } from "./lib/utils";
 import bcrypt from "bcrypt";
-import { z } from "zod";
 
 type Props = {
   email: string;
@@ -12,8 +11,6 @@ type Props = {
 };
 
 const login = async ({ email, password }: Props) => {
-  //   const { email, password } = credentials;
-
   try {
     connectToDB();
     const user = await User.findOne({ email: email });
@@ -37,24 +34,34 @@ export const { signIn, signOut, auth } = NextAuth({
     CredentialsProvider({
       async authorize(credentials) {
         try {
-          console.log("cred", credentials);
-          const parsedCredentials = z
-            .object({ email: z.string().email(), password: z.string().min(6) })
-            .safeParse(credentials);
+          const { email, password } = credentials as Props;
 
-          if (parsedCredentials.success) {
-            const { email, password } = parsedCredentials.data;
-            const user = await login({ email: email, password: password });
-            console.log("user", user);
-            if (!user) return null;
-          }
+          const user = await login({
+            email: email,
+            password: password,
+          });
 
-          return null;
+          return user;
         } catch (err) {
           return null;
         }
       },
     }),
   ],
-  // ADD ADDITIONAL INFORMATION TO SESSION
+  callbacks: {
+    jwt({ token, user }) {
+      if (user) {
+        token.username = user.username;
+        token.img = user.img;
+      }
+      return token;
+    },
+    session({ session, token }) {
+      if (token) {
+        session.user.username = token.username;
+        session.user.img = token.img;
+      }
+      return session;
+    },
+  },
 });
